@@ -10,6 +10,14 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using BlackMarketAuction.Models;
 
+    /*
+         AuctionItemManagerController.cs
+         Austin Cameron - Patrick Ross - Ryan Jameson
+         Black Market Auction House
+         This is the auction items manager controller
+
+    */
+
 namespace BlackMarketAuction.Controllers
 {
     [Authorize]
