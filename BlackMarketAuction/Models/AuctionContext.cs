@@ -20,9 +20,7 @@ namespace BlackMarketAuction.Models
         {
         }
 
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-        }
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Item> Items { get; set; }
     }
 }

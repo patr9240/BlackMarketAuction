@@ -34,6 +34,7 @@ namespace BlackMarketAuction.Models
         public virtual int CategoryID { get; set; }
         public virtual string Name { get; set; }
         public virtual string Description { get; set; }
+        public virtual string ThumbnailImage { get; set; }
         public virtual List<Item> items { get; set; }
     }
 }
