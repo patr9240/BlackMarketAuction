@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+
 <!--
      _Layout.cshtml
      Austin Cameron - Patrick Ross - Ryan Jameson
@@ -10,7 +11,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black Market</title>
+    <title>Worlds End Tavern</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -24,7 +25,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="@Url.Action("Index", "Home")" class="navbar-brand"><img id="brand" alt="Brand" src="~/Assets/images/build-3.png" /></a>
+                <a href="@Url.Action("Index", "Home")" class="navbar-brand">Black Market Auctions</a>
             </div>
             <div class="navbar-collapse collapse">
                 @Html.Partial("_LoginPartial")
@@ -39,7 +40,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Black Market Auction House  ||   @Html.ActionLink("Contact", "Contact", "Home", htmlAttributes: new { title = "Contact us Here!" }) || @Html.ActionLink("About", "About", "Home", htmlAttributes: new { title = "Learn out more!" })</p>
+            <p>&copy; @DateTime.Now.Year - Black Market Auction HOuse  ||   @Html.ActionLink("Contact", "Contact", "Home", htmlAttributes: new { title = "Contact us Here!" })  ||  @Html.ActionLink("About", "About", "Home", htmlAttributes: new { title = "Learn More About Us!" })</p>
         </footer>
     </div>
 
