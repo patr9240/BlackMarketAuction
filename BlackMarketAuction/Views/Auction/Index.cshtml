@@ -20,6 +20,6 @@
 <ul>
     @foreach (Category item in Model)
     {
-        <li>@Html.ActionLink(item.Name, "Browse", new { Category = item.Name })</li>
+        <li>@Html.ActionLink(item.Name, "Browse", new { categories = item.Name })</li>
     }
 </ul>
